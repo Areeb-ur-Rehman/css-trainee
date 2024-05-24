@@ -5,13 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo selectore & more designing</title>
     <style>
+        .container{
+            border: 2px solid red;
+            background-color: aliceblue;
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
 
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            color: rgb(158, 20, 20);
+            background-color: black;
+        }
+
+        /* a:visited{
+            background-color: white;
+        } */
+
+        a:active{
+            background-color: mediumaquamarine;
+        }
+
+        .btn{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            background-color: green;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            background-color: white;
+            border: 2px solid black;
+        }
     </style>
 </head>
 <body>
     <div class="container" id="cont1">
         <h3>This is my hadding</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium iusto facilis harum ducimus cupiditate minima eaque quod laudantium voluptatem molestiae perspiciatis quisquam natus fugit, nihil exercitationem aspernatur laboriosam tenetur provident molestias? Commodi, optio neque!</p>
+        <a href="https://www.instagram.com/areeb.__.h/" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
     </div>
 </body>
 </html>
