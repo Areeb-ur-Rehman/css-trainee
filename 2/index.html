@@ -4,24 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
 
     <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'ubuntu' , sans-serif;
+        }
+
+        .container{
+            width: 900px;
+            border: 3px solid grey;
+            background-color: rgb(249, 237, 147);
+            margin: 33px auto;
+        }
+
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(248, 238, 238);
+
+        }
+
+        #fruit{
+            float: right;
+            width: 48%;
+        }
+
+        #mobile{
+            float: left;
+            width: 48%;
+        }
+
+        #cigrattes{
+        /* float: left; */
+        clear: left;
+        width: 100%;
+        }
+
+        p, h3{
+            /* text-align: left;
+            text-align: right;
+            text-align: center; */
+            text-align: justify;
+        }
+
+        h1{
+            margin: 23px auto;
+            width: 455px;
+        }
 
     </style>
 </head>
 <body>
     <div class="container">
-        <div id="fruits" class="item">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
             <h3>Fruits</h3>
-            <p id="fruitspara" class="para"></p>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatem cumque, pariatur sit excepturi, nam debitis voluptatum tempore amet consequatur non obcaecati delectus necessitatibus cum accusantium sunt ea! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum fuga omnis suscipit odit cum, nemo incidunt ipsam earum soluta! Nemo asperiores atque, nisi reprehenderit eveniet qui nostrum. Fugit nisi aspernatur perspiciatis.</p>
         </div>
-        <div id="fruits" class="item">
+        <div id="Mobile" class="item">
             <h3>Mobiles</h3>
-            <p id="mobilespara" class="para"></p>
+            <p id="mobilespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatem cumque, pariatur sit excepturi, nam debitis voluptatum tempore amet consequatur non obcaecati delectus necessitatibus cum rem temporibus, accusantium sunt ea! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum minima tempora natus. Incidunt esse quia voluptas nam animi. Omnis, unde. Beatae a dicta aut. Earum excepturi est explicabo ipsa magni eveniet beatae facilis corporis.</p>
         </div>
-        <div id="fruits" class="item">
-            <h3>cigarettes</h3>
-            <p id="cigarettespara" class="para"></p>
+        <div id="Cigarette" class="item">
+            <h3>Cigarettes</h3>
+            <p id="cigarettespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatem cumque, pariatur sit excepturi, nam debitis voluptatum tempore amet consequatur non obcaecati delectus necessitatibus cum rem temporibus, accusantium sunt ea!</p>
+        </div>
+        <div id="pan" class="item">
+            <h3>Pan</h3>
+            <p id="panpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatem cumque, pariatur sit excepturi, nam debitis voluptatum tempore amet consequatur non obcaecati delectus necessitatibus cum rem temporibus, accusantium sunt ea!</p>
         </div>
     </div>    
 </body>
