@@ -1,0 +1,83 @@
+body{
+    font-family: "Balsamiq Sans", sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(./image/bg.jpg.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-position: center; */
+}
+
+.left{
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img{
+
+/* I can change the color of my image with this function */
+    /* filter: invert(100%); */
+
+    width: 135px;
+}
+
+.left div{
+    text-align: center;
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    border: 2px solid yellow;
+
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid green;
+
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: red;
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 8px 14px;
+    border: 2px solid grey;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
