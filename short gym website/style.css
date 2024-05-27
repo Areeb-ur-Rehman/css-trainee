@@ -91,3 +91,25 @@ body{
     width: 33%;
     border-radius: 28px;
 }
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 9px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 130px;
+    margin: 25px auto;
+
+}
