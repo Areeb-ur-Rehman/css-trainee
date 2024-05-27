@@ -1,5 +1,5 @@
 body{
-    font-family: "Balsamiq Sans", sans-serif;
+    /* font-family: "Balsamiq Sans", sans-serif; */
     color: white;
     margin: 0px;
     padding: 0px;
@@ -13,7 +13,7 @@ body{
     display: inline-block;
     border: 2px solid red;
     position: absolute;
-    left: 34px;
+    left: 58px;
     top: 20px;
 }
 
@@ -27,6 +27,8 @@ body{
 
 .left div{
     text-align: center;
+    line-height: 19px;
+    font-size: 26px;
 }
 
 .mid{
@@ -80,4 +82,12 @@ body{
 .btn:hover{
     background-color: white;
     color: black;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 180px 135px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
 }
