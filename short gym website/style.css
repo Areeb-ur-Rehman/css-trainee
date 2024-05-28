@@ -11,7 +11,7 @@ body{
 
 .left{
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     left: 58px;
     top: 20px;
@@ -34,17 +34,17 @@ body{
 .mid{
     display: block;
     width: 33%;
-    margin: 20px auto;
-    border: 2px solid yellow;
+    margin: 28px auto;
+    /* border: 2px solid yellow; */
 
 }
 
 .right{
     position: absolute;
     right: 34px;
-    top: 20px;
+    top: 35px;
     display: inline-block;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 
 }
 
@@ -65,7 +65,7 @@ body{
 
 .navbar li a:hover, .navbar li a.active{
     text-decoration: underline;
-    color: red;
+    /* color: red; */
 }
 
 .btn{
@@ -85,8 +85,8 @@ body{
 }
 
 .container{
-    border: 2px solid white;
-    margin: 180px 135px;
+    /* border: 2px solid white; */
+    margin: 110px 135px;
     padding: 75px;
     width: 33%;
     border-radius: 28px;
